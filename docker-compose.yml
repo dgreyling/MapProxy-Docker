@@ -9,7 +9,7 @@ services:
             max-size: "10m"
             max-file: "10"
     ports:
-     - "80:80"
+     - "9001:80"
      - "443:443"
     links:
      - mapproxy:mapproxy
